@@ -1,0 +1,6 @@
+Lung Detection Demo Program：
+1. Run lung_analysis.m and read preprocessed ct scans in /TEST folder
+2. Click 'Detect Nodule' button to see clustered nodule candidates result
+3. Click 'Detail' to see lung region extraction work flow
+4. Click 'Extract Feature' button to see extracted feature for each image
+5. Finally click 'Diagnose' button to see diagnosis result, which the prob larger than 50% means that the patient has great probability to catch a lung cancer.

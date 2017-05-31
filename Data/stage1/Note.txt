@@ -1,0 +1,1 @@
+This folder store the .dcm images that waited for processing.

@@ -1,0 +1,9 @@
+Note:
+Remember to add MeanShift to Matlab library in order to make the program work
+
+BatchLungRegionExtraction.m  -  Batch process the lung slices and output lung region extraction images in specific path
+BatchFeatureExtraction.m  -  Process the lung slices and extract three features and output a feature vector
+EvaluateModel.m  -  Evaluate the model with cross-validation and mean accuracy
+Preprocess.m  -  Batch process the ct scans, filter some useless scans and output ten bmp images for each patient in specific path
+TrainModel.m  -  Apply FeatureExtractionV2.m, extract feature matrix and store in specific path
+NoduleCandidate.m  -  Apply MeanShift algorithm
